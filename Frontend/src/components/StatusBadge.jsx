@@ -1,17 +1,18 @@
 const statusConfig = {
   // Figma status values
-  open: { label: "Open", className: "badge-status-open" },
-  in_progress: { label: "In Progress", className: "badge-status-progress" },
+  open: { label: "Open", className: "badge-status-new" },
+  in_progress: { label: "In Progress", className: "badge-status-in-progress" },
   fixed: { label: "Fixed", className: "badge-status-fixed" },
   closed: { label: "Closed", className: "badge-status-closed" },
 
-  New: { label: "New", className: "badge-status-open" },
-  Assigned: { label: "Assigned", className: "badge-status-progress" },
-  "In Progress": { label: "In Progress", className: "badge-status-progress" },
+  Open: { label: "Open", className: "badge-status-new" },
+  New: { label: "New", className: "badge-status-new" },
+  Assigned: { label: "Assigned", className: "badge-status-assigned" },
+  "In Progress": { label: "In Progress", className: "badge-status-in-progress" },
   Fixed: { label: "Fixed", className: "badge-status-fixed" },
-  Testing: { label: "Testing", className: "badge-status-progress" },
+  Testing: { label: "Testing", className: "badge-status-testing" },
   Closed: { label: "Closed", className: "badge-status-closed" },
-  Reopened: { label: "Reopened", className: "badge-status-open" },
+  Reopened: { label: "Reopened", className: "badge-status-reopened" },
 };
 
 function StatusBadge({ status }) {

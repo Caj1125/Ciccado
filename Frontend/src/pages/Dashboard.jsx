@@ -25,12 +25,12 @@ import { Plus } from "lucide-react";
 const STATUS_COLORS = {
   New: "#EF4444",
   Open: "#EF4444",
-  Assigned: "#3B82F6",
+  Assigned: "#F97316",
   "In Progress": "#3B82F6",
-  Fixed: "#10B981",
-  Testing: "#F59E0B",
-  Closed: "#6B7280",
-  Reopened: "#F59E0B",
+  Fixed: "#22C55E",
+  Testing: "#EAB308",
+  Closed: "#64748B",
+  Reopened: "#A855F7",
 };
 
 function Dashboard() {
